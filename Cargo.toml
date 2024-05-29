@@ -42,14 +42,14 @@ object_store = { version = "0.9" }
 parquet = { version = "51" }
 
 # datafusion
-datafusion = { git = "https://github.com/spiceai/datafusion.git", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" }
-datafusion-expr = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/expr", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" }
-datafusion-common = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/common", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" } 
-datafusion-proto = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/proto", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" } 
-datafusion-sql = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/sql", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" } 
-datafusion-physical-expr = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/physical-expr", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" } 
-datafusion-functions = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/functions", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" } 
-datafusion-functions-array = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/functions-array", rev = "c533d36788eb66b5a90ce158bdad182d6b3a0da9" } 
+datafusion = { git = "https://github.com/spiceai/datafusion.git", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" }
+datafusion-expr = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/expr", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" }
+datafusion-common = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/common", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" } 
+datafusion-proto = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/proto", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" } 
+datafusion-sql = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/sql", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" } 
+datafusion-physical-expr = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/physical-expr", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" } 
+datafusion-functions = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/functions", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" } 
+datafusion-functions-array = { git = "https://github.com/spiceai/datafusion.git", folder = "datafusion/functions-array", rev = "ea1176ae08dd0f94c99ef7f1d7dc989e383a3586" } 
 
 # serde
 serde = { version = "1.0.194", features = ["derive"] }
